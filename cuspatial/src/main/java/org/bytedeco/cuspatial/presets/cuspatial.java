@@ -16,11 +16,13 @@ import org.bytedeco.javacpp.tools.*;
                 "windows-x86",
                 "windows-x86_64"
             },
-            include = {"cudf/types.h", "cuspatial/coordinate_transform.hpp",
-                       "cuspatial/hausdorff.hpp", "cuspatial/haversine.hpp",
-                       "cuspatial/point_in_polygon.hpp", "cuspatial/query.hpp",
-                       "cuspatial/shapefile_readers.hpp", "cuspatial/soa_readers.hpp",
-                       "cuspatial/trajectory.hpp", "cuspatial/types.hpp"},
+            includepath = {"/usr/local/cuspatial/include/"},
+            include = {"<cudf/types.h>", "<cuspatial/coordinate_transform.hpp>",
+                       "<cuspatial/hausdorff.hpp>", "<cuspatial/haversine.hpp>",
+                       "<cuspatial/point_in_polygon.hpp>", "<cuspatial/query.hpp>",
+                       "<cuspatial/shapefile_readers.hpp>", "<cuspatial/soa_readers.hpp>",
+                       "<cuspatial/trajectory.hpp>", "<cuspatial/types.hpp>"},
+            linkpath = {"/usr/local/cuspatial/lib/"},
             link = "cuspatial",
             preload = "libcuspatial-0"
         )
