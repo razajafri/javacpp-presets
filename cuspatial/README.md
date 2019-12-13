@@ -34,7 +34,7 @@ We can use [Maven 3](http://maven.apache.org/) to download and install automatic
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bytedeco.cuspatial</groupId>
     <artifactId>cuspatial-test</artifactId>
-    <version>1.5.2-SNAPSHOT</version>
+    <version>1.5.3-SNAPSHOT</version>
     <properties>
         <exec.mainClass>cuSpatialTest</exec.mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,7 +45,7 @@ We can use [Maven 3](http://maven.apache.org/) to download and install automatic
         <dependency>
             <groupId>org.bytedeco</groupId>
             <artifactId>cuspatial-platform</artifactId>
-            <version>1.0-1.5.2-SNAPSHOT</version>
+            <version>1.0-1.5.3-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <build>

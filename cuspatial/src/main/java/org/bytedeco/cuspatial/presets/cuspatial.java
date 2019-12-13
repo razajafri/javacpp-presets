@@ -23,8 +23,7 @@ import org.bytedeco.javacpp.tools.*;
                        "<cuspatial/shapefile_readers.hpp>", "<cuspatial/soa_readers.hpp>",
                        "<cuspatial/trajectory.hpp>", "<cuspatial/types.hpp>"},
             linkpath = {"/usr/local/cuspatial/lib/"},
-            link = "cuspatial",
-            preload = "libcuspatial-0"
+            link = "cuspatial"
         )
     }
 )
