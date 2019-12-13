@@ -4,11 +4,7 @@ import static org.bytedeco.cuspatial.global.cuspatial.*;
 
 public class cuSpatialTest {
 
-    public static void main(String[] args) throws UnsupportedEncodingException {
-        {
-            System.out.println("TBD: ADD TEST HERE!");
-                printPersonTypePtr(personTypePtr);
-            }
-        }
+    public static void main(String[] args) {
+        System.out.println("TBD: ADD TEST HERE!");
     }
 }
